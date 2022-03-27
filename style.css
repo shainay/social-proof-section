@@ -10,7 +10,7 @@ body {
     background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
     min-height: 100vh;
     background-repeat: no-repeat, no-repeat;
-    background-position: right 60vw bottom 50vh, left 20vw top 50px;
+    background-position: right 0 bottom 0, left 0 top 0;
 }
 
 .container {
@@ -113,13 +113,9 @@ body {
     color: hsl(333, 80%, 67%);
 }
 
-.card q {
-    color: hsl(0, 0%, 100%);
-}
-
-.card q p {
-    display: inline;
+.card p {
     font-size: 14px;
+    color: hsl(0, 0%, 100%);
 }
 
 .card img {
@@ -134,6 +130,8 @@ body {
 @media (max-width: 768px) {
     body {
         background-image: url(./images/bg-pattern-top-mobile.svg), url(./images/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: right 0 bottom 0, left 0 top 0;  
     }
     .top-layer {
         flex-direction: column;
